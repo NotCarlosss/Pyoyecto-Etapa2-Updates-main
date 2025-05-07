@@ -1,16 +1,16 @@
 export default class Cl_mMaterias {
     constructor() {
-        this.materias = [];
+        this.array = [];
     }
     agregar(materia) {
-        this.materias.push(materia);
+        this.array.push(materia);
     }
     listado() {
-        return this.materias;
+        return this.array;
     }
     existe(codigo) {
-        for (let i = 0; i < this.materias.length; i++) {
-            if (this.materias[i].codigo === codigo) {
+        for (let i = 0; i < this.array.length; i++) {
+            if (this.array[i].codigo === codigo) {
                 return true;
             }
         }
