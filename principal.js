@@ -1,4 +1,4 @@
-import Cl_mSemestre from "./js/Cl_mSemestre.js";
+import Cl_mSemestre from "./modelo/Cl_mSemestre.js";
 import Cl_vAplicacion from "./vista/Cl_vAplicacion.js";
 import Cl_controlador from "./Cl_controlador.js";
 import dataEstudiantes from "./data/dataEstudiantes.js";

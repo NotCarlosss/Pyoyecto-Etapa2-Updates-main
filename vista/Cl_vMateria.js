@@ -1,4 +1,4 @@
-import Cl_mMateria from "../js/Cl_mMateria.js";
+import Cl_mMateria from "../modelo/Cl_mMateria.js";
 export default class Cl_vMateria {
   constructor() {
     this.controlador = null;

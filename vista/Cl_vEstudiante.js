@@ -1,4 +1,4 @@
-import Cl_mEstudiante from "../js/Cl_mEstudiante.js";
+import Cl_mEstudiante from "../modelo/Cl_mEstudiante.js";
 export default class Cl_vEstudiante {
   constructor() {
     this.controlador = null;
